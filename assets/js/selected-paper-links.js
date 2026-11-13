@@ -3,6 +3,7 @@ const selectedPaperLinks = {
   "kang-active-subsampling": "https://openreview.net/pdf/d65069ded160e53c7d338ff8320d2f428f71f85b.pdf",
   "kang-mri-protocols": "https://doi.org/10.1088/1361-6560/ae4285",
   "kang-mri-denoising": "https://doi.org/10.1002/mrm.30197",
+  "2023-onlytrainonce-mrm": "https://doi.org/10.1002/mrm.29629",
   "2021-unsupervised-learning-for-magnetization": "https://doi.org/10.1002/mrm.28573"
 };
 

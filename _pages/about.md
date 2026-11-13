@@ -44,4 +44,4 @@ permalink: /
     </div>
   </section>
 </div>
-<script src="{{ '/assets/js/selected-paper-links.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/selected-paper-links.js' | relative_url | append: '?v=2023-mrm' }}" defer></script>
