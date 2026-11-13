@@ -320,7 +320,7 @@ html[data-theme="dark"] .research-home {
   font-style: italic;
 }
 
-.selected-publications [id="2021-unsupervised-learning-for-magnetization"] .periodical + .periodical {
+.selected-publications .periodical:has(.publication-distinction) {
   background: transparent;
   color: var(--global-text-color);
   font-style: normal;
@@ -352,4 +352,19 @@ html[data-theme="dark"] .publications-by-year h2.bibliography {
 
 #ismrm-presentations {
   margin-top: 4rem;
+}
+
+.publications .publication-distinction,
+.publications .publication-distinction a {
+  color: #ac4800;
+  font-weight: 700;
+}
+
+html[data-theme="dark"] .publications .publication-distinction,
+html[data-theme="dark"] .publications .publication-distinction a {
+  color: #ffad66;
+}
+
+.publications .publication-distinction a {
+  text-decoration: underline;
 }
