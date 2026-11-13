@@ -1,0 +1,1 @@
+const publicationCounts={J:0,C:0};for(const t of document.querySelectorAll(".publications-by-year .publication-type")){const o=t.textContent.trim();publicationCounts[o]+=1,t.textContent=o+publicationCounts[o]}
