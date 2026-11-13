@@ -9,9 +9,9 @@ permalink: /
     <h1 id="home-heading">Beomgu Kang</h1>
     <div class="intro-grid">
       <div class="intro-text">
-        <p>I’m a postdoctoral researcher in the Department of Artificial Intelligence at Korea University, working with <a href="https://impel.korea.ac.kr/members/principal-investigator">Hyunseok Seo</a>. I study how to build reliable AI systems when measurements or compute are limited.</p>
-        <p>During my Ph.D. at KAIST, I studied how to get more useful information from limited MRI measurements. I developed methods to optimize acquisition schedules for quantitative MR fingerprinting and to denoise multidimensional MRI data with self-supervised learning.</p>
-        <p>In my postdoctoral research, I’ve extended these ideas to active sensing and efficient inference for large language models. In active sensing, I study how to choose which measurements to acquire for each input. In language models, I study which cached information to retain under a memory budget. I’m interested in extending this work to multimodal and generative AI.</p>
+        <p>I’m a postdoctoral researcher in the Department of Artificial Intelligence at Korea University, working with <a href="https://impel.korea.ac.kr/members/principal-investigator">Hyunseok Seo</a>. I develop reliable and resource-efficient AI methods that decide what information to use and how much computation to spend under uncertainty.</p>
+        <p>During my Ph.D. in electrical engineering at KAIST, I developed physics-informed learning and self-supervised denoising methods for quantitative MRI. This work led me to study measurement selection more broadly. In my postdoctoral research, I developed active probabilistic subsampling that chooses measurements based on the input and the downstream task, from reconstruction to classification and segmentation.</p>
+        <p>I now apply these ideas to foundation models. My work on risk-controlled KV-cache eviction studies how to reduce memory use in large language models while meeting explicit targets for predictive risk. I’m also exploring when visual references should guide generation and how to allocate inference-time computation for reliable multimodal outputs.</p>
         <ul class="profile-links" aria-label="Profile links">
           <li><a href="mailto:{{ site.data.socials.email }}">Email</a></li>
           <li><a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a></li>
