@@ -27,7 +27,7 @@ nav_order: 2
         <summary><h2>Education</h2></summary>
         <ul class="cv-entries">
           <li>
-            <span class="cv-date">Feb 2019 – Feb 2024</span>
+            <span class="cv-date">Feb 2019<br>– Feb 2024</span>
             <div><h3>Ph.D. and M.S. in Electrical Engineering, KAIST</h3><p>Daejeon, South Korea · Advisor: HyunWook Park</p></div>
           </li>
           <li>
