@@ -14,6 +14,8 @@ nav_order: 1
 
 ## Publications and presentations
 
+<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url }}">
+
 {% include bib_search.liquid %}
 
 <div class="publications">
