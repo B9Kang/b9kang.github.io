@@ -14,7 +14,7 @@ nav_order: 1
 
 ## Journal and conference papers
 
-<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=distinction-blue' }}">
+<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=distinction-neutral' }}">
 
 {% include bib_search.liquid %}
 
