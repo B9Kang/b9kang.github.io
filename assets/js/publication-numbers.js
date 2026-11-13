@@ -1,1 +1,1 @@
-const publicationCounts={J:0,C:0};for(const t of document.querySelectorAll(".publications-by-year .publication-type")){const o=t.textContent.trim();publicationCounts[o]+=1,t.textContent=o+publicationCounts[o]}
+const publicationCounts={J:0,C:0},badges=document.querySelectorAll(".publications-by-year .publication-type");for(const t of Array.from(badges).reverse()){const o=t.textContent.trim();publicationCounts[o]+=1,t.textContent=o+publicationCounts[o]}
