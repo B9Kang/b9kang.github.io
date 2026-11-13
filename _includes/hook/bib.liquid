@@ -1,0 +1,6 @@
+{%- case entry.type -%}
+  {%- when 'article' -%}
+    {%- capture entrytype -%}<span class="publication-type" title="Journal">J</span>{{ entrytype }}{%- endcapture -%}
+  {%- when 'inproceedings' -%}
+    {%- capture entrytype -%}<span class="publication-type" title="Conference or workshop">C</span>{{ entrytype }}{%- endcapture -%}
+{%- endcase -%}
