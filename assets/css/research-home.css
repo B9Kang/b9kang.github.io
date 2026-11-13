@@ -58,7 +58,7 @@ html[data-theme="dark"] .research-home {
 
 .intro-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 26%);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 18.2%);
   gap: clamp(1.25rem, 4vw, 2.5rem);
   align-items: start;
 }
@@ -189,7 +189,7 @@ html[data-theme="dark"] .research-home {
 
   .research-portrait {
     grid-row: 1;
-    width: min(48%, 11rem);
+    width: min(33.6%, 7.7rem);
   }
 
   .research-news li {
@@ -300,4 +300,15 @@ html[data-theme="dark"] .research-home {
   .cv-nav li + li {
     margin-top: 0;
   }
+}
+
+.selected-publications [id="2021-unsupervised-learning-for-magnetization"] .periodical {
+  font-style: italic;
+}
+
+.selected-publications [id="2021-unsupervised-learning-for-magnetization"] .periodical + .periodical {
+  background: transparent;
+  color: var(--global-text-color);
+  font-style: normal;
+  padding: 0;
 }
