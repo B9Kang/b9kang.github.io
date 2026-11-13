@@ -15,10 +15,9 @@ nav_order: 2
     <nav class="cv-nav" aria-label="CV sections">
       <ul>
         <li><a href="#education">Education</a></li>
-        <li><a href="#research-interests">Research Interests</a></li>
+        <li><a href="#experience">Research Experience</a></li>
         <li><a href="#honors">Honors and Awards</a></li>
         <li><a href="#service">Academic Service</a></li>
-        <li><a href="#experience">Research Experience</a></li>
         <li><a href="{{ '/publications/' | relative_url }}">Publications</a></li>
       </ul>
     </nav>
@@ -31,17 +30,25 @@ nav_order: 2
             <div><h3>Ph.D. and M.S. in Electrical Engineering, KAIST</h3><p>Daejeon, South Korea · Advisor: HyunWook Park</p></div>
           </li>
           <li>
-            <span class="cv-date">Mar 2013 – Feb 2019</span>
+            <span class="cv-date">Mar 2013<br>– Feb 2019</span>
             <div><h3>B.S. in Electrical Engineering and Bio &amp; Brain Engineering, KAIST</h3><p>Daejeon, South Korea</p></div>
           </li>
         </ul>
       </details>
-      <details class="cv-section" id="research-interests" open>
-        <summary><h2>Research Interests</h2></summary>
+      <details class="cv-section" id="experience" open>
+        <summary><h2>Research Experience</h2></summary>
         <ul class="cv-entries">
           <li>
-            <span class="cv-date">Topics</span>
-            <div><p>Physics-informed learning and optimization, active sensing, efficient LLM inference, and multimodal and generative AI.</p></div>
+            <span class="cv-date">Nov 2025<br>– Present</span>
+            <div><h3>Postdoctoral Researcher, Korea University</h3><p>Department of Artificial Intelligence · Seoul, South Korea · Advisor: Hyunseok Seo</p></div>
+          </li>
+          <li>
+            <span class="cv-date">Mar 2024<br>– Oct 2025</span>
+            <div><h3>Postdoctoral Researcher, Korea Institute of Science and Technology (KIST)</h3><p>Bionic Research Center · Seoul, South Korea · Advisor: Hyunseok Seo</p></div>
+          </li>
+          <li>
+            <span class="cv-date">Dec 2022<br>– Jan 2023</span>
+            <div><h3>Visiting Scholar, Johns Hopkins University School of Medicine</h3><p>Department of Radiology · Baltimore, Maryland, USA · Advisor: Hye-Young Heo</p></div>
           </li>
         </ul>
       </details>
@@ -72,23 +79,6 @@ nav_order: 2
           <li>
             <span class="cv-date">Journals</span>
             <div><h3>Journal reviewing</h3><p>Magnetic Resonance in Medicine and Transactions on Machine Learning Research.</p></div>
-          </li>
-        </ul>
-      </details>
-      <details class="cv-section" id="experience" open>
-        <summary><h2>Research Experience</h2></summary>
-        <ul class="cv-entries">
-          <li>
-            <span class="cv-date">Nov 2025 – Present</span>
-            <div><h3>Postdoctoral Researcher, Korea University</h3><p>Department of Artificial Intelligence · Seoul, South Korea · Advisor: Hyunseok Seo</p></div>
-          </li>
-          <li>
-            <span class="cv-date">Mar 2024 – Oct 2025</span>
-            <div><h3>Postdoctoral Researcher, Korea Institute of Science and Technology (KIST)</h3><p>Bionic Research Center · Seoul, South Korea · Advisor: Hyunseok Seo</p></div>
-          </li>
-          <li>
-            <span class="cv-date">Dec 2022 – Jan 2023</span>
-            <div><h3>Visiting Scholar, Johns Hopkins University School of Medicine</h3><p>Department of Radiology · Baltimore, Maryland, USA · Advisor: Hye-Young Heo</p></div>
           </li>
         </ul>
       </details>
