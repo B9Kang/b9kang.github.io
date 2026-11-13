@@ -14,7 +14,7 @@ nav_order: 1
 
 ## Journal and conference papers
 
-<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=publication-years' }}">
 
 {% include bib_search.liquid %}
 
@@ -34,4 +34,4 @@ nav_order: 1
 
 </div>
 
-<script src="{{ '/assets/js/publication-numbers.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/publication-numbers.js' | relative_url | append: '?v=oldest-first' }}" defer></script>
