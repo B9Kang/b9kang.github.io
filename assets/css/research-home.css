@@ -340,3 +340,16 @@ html[data-theme="dark"] .research-home {
   font-size: 0.8em;
   font-weight: 700;
 }
+
+.publications-by-year h2.bibliography {
+  color: #505050;
+  border-top-color: currentColor;
+}
+
+html[data-theme="dark"] .publications-by-year h2.bibliography {
+  color: #a6a6a6;
+}
+
+#ismrm-presentations {
+  margin-top: 4rem;
+}
