@@ -1,10 +1,17 @@
-{%- if page.url == '/' and entry.selected == 'true' and entry.type == 'inproceedings' -%}
+{%- if entry.type == 'inproceedings' -%}
   {%- assign entrytype = entrytype | replace_first: '<em>In ', '<em>' -%}
-{%- elsif page.url == '/publications/' -%}
+  {%- if page.url == '/' and entry.selected == 'true' and entry.abbr -%}
+    {%- assign entrytype = entrytype | replace_first: entry.booktitle, entry.abbr -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- if page.url == '/publications/' -%}
   {%- case entry.type -%}
     {%- when 'article' -%}
       {%- capture entrytype -%}<span class="publication-type" title="Journal">J</span>{{ entrytype }}{%- endcapture -%}
     {%- when 'inproceedings' -%}
+      {%- assign venue = entry.booktitle | regex_replace: '\(([A-Z][A-Za-z]+)\)', '(<strong>\1</strong>)' -%}
+      {%- assign entrytype = entrytype | replace_first: entry.booktitle, venue -%}
       {%- unless entry.booktitle contains '(ISMRM)' -%}
         {%- capture entrytype -%}<span class="publication-type" title="Conference or workshop">C</span>{{ entrytype }}{%- endcapture -%}
       {%- endunless -%}
