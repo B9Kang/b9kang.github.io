@@ -31,7 +31,7 @@ nav_order: 2
           </li>
           <li>
             <span class="cv-date">Mar 2013<br>– Feb 2019</span>
-            <div><h3>B.S. in Electrical Engineering and Bio &amp; Brain Engineering, KAIST</h3><p>Daejeon, South Korea</p></div>
+            <div><h3>B.S. in Electrical Engineering (Double major: Bio &amp; Brain Engineering), KAIST</h3><p>Daejeon, South Korea</p></div>
           </li>
         </ul>
       </details>
