@@ -373,3 +373,17 @@ html[data-theme="dark"] .publications .publication-distinction a {
   background-color: #fff3b5;
   color: #272217;
 }
+
+.selected-publications .periodical:has(.publication-distinction) {
+  font-size: 0.948rem;
+}
+
+.publications .periodical:has(+ .periodical > .publication-venue-note),
+.publications .periodical:has(> .publication-venue-note) {
+  display: inline;
+}
+
+.publication-venue-note {
+  margin-inline-start: 0.35em;
+  font-weight: 700;
+}
