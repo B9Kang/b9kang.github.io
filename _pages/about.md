@@ -13,7 +13,7 @@ permalink: /
         <p>During my Ph.D. at KAIST, I developed physics-informed learning methods for quantitative MRI. I used models of MR signal formation to optimize acquisition protocols and implemented those protocols on MRI scanners, reducing scan time while preserving quantitative accuracy.</p>
         <p>As a postdoc, I extended this work to active sensing, where the model chooses which measurements to acquire based on the input and the downstream task. I now apply the same principle to large language models, where I study which cached information to retain to reduce memory use while keeping prediction risk within a specified limit. These projects share a question: How many measurements or how much memory does a model need to perform reliably?</p>
       </div>
-      <div class="portrait-frame"><img class="research-portrait" src="{{ '/assets/img/beomgu-kang.jpg' | relative_url }}" alt="Beomgu Kang" width="600" height="840"></div>
+      <div class="portrait-frame"><img class="research-portrait" src="{{ '/assets/img/beomgu-kang.jpg' | relative_url | append: '?v=2' }}" alt="Beomgu Kang" width="2002" height="3000"></div>
     </div>
     <ul class="profile-links" aria-label="Profile links">
       <li><a href="mailto:{{ site.data.socials.email }}">Email</a></li>
