@@ -363,12 +363,12 @@ html[data-theme="dark"] .publications-by-year h2.bibliography {
 }
 
 .publications .publication-distinction {
-  color: #6b7280;
+  color: #d98a3a;
   font-weight: 700;
 }
 
 .publications .publication-distinction a {
-  color: #6b7280;
+  color: #d98a3a;
   text-decoration: underline;
 }
 
