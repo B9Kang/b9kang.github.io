@@ -312,3 +312,17 @@ html[data-theme="dark"] .research-home {
   font-style: normal;
   padding: 0;
 }
+
+.publication-type {
+  display: none;
+}
+
+.publications-by-year .publication-type {
+  display: inline-block;
+  margin-inline-end: 0.45rem;
+  padding-inline: 0.35rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 4px;
+  font-size: 0.8em;
+  font-weight: 700;
+}
