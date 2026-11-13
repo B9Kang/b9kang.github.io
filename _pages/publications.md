@@ -14,7 +14,7 @@ nav_order: 1
 
 ## Journal and conference papers
 
-<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=publication-awards' }}">
+<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=venue-notes' }}">
 
 {% include bib_search.liquid %}
 
