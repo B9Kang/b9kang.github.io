@@ -30,7 +30,7 @@ nav_order: 1
 
 <div class="publications">
 
-{% bibliography --file ismrm %}
+{% bibliography --file ismrm --group_by none %}
 
 </div>
 
