@@ -33,3 +33,5 @@ nav_order: 1
 {% bibliography --file ismrm %}
 
 </div>
+
+<script src="{{ '/assets/js/publication-numbers.js' | relative_url }}" defer></script>
