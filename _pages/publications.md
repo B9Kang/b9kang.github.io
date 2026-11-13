@@ -9,12 +9,12 @@ nav_order: 1
 
 ## Preprint
 
-**Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets**  
+<strong class="preprint-title">Risk-Controlled KV-Cache Eviction: From Memory Budgets to Risk Targets</strong><br>
 **Beomgu Kang**, SoJin Yun, Hojoon Kim, and Hyunseok Seo
 
 ## Journal and conference papers
 
-<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=venue-notes' }}">
+<link rel="stylesheet" href="{{ '/assets/css/research-home.css' | relative_url | append: '?v=publication-links' }}">
 
 {% include bib_search.liquid %}
 
@@ -35,3 +35,5 @@ nav_order: 1
 </div>
 
 <script src="{{ '/assets/js/publication-numbers.js' | relative_url | append: '?v=oldest-first' }}" defer></script>
+
+<script src="{{ '/assets/js/selected-paper-links.js' | relative_url | append: '?v=all-publications' }}" defer></script>

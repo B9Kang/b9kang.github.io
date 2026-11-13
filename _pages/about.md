@@ -30,8 +30,7 @@ permalink: /
       <li><time datetime="2026-05">May 2026</time><span>Our paper (Robust MRI Protocol Optimization) was accepted at the <strong>ICML Workshop</strong>.</span></li>
       <li><time datetime="2026-02">Feb 2026</time><span>Our paper (Physics-Informed Optimization of Saturation-Transfer MRI Protocols) was accepted for publication in <strong>Physics in Medicine &amp; Biology (PMB)</strong>.</span></li>
       <li><time datetime="2026-01">Jan 2026</time><span>Our paper (Active Probabilistic Subsampling) was accepted at <strong>ICLR</strong>. <a href="https://github.com/B9Kang/PGADPS">Code</a></span></li>
-      <li><time datetime="2025-11">Nov 2025</time><span>Joined Korea University as a postdoctoral researcher in the Department of Artificial Intelligence.</span></li>
-      <li><time datetime="2025-05">May 2025</time><span>Named an <a href="https://www.ismrm.org/25m/junior-fellows/">ISMRM Junior Fellow</a>.</span></li>
+      <li><time datetime="2025-05">May 2025</time><span>Selected as an <a href="https://www.ismrm.org/25m/junior-fellows/">ISMRM Junior Fellow</a>.</span></li>
     </ul>
   </section>
 
@@ -45,4 +44,4 @@ permalink: /
     </div>
   </section>
 </div>
-<script src="{{ '/assets/js/selected-paper-links.js' | relative_url | append: '?v=2023-mrm' }}" defer></script>
+<script src="{{ '/assets/js/selected-paper-links.js' | relative_url | append: '?v=all-publications' }}" defer></script>
