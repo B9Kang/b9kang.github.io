@@ -354,18 +354,8 @@ html[data-theme="dark"] .publications-by-year h2.bibliography {
   margin-top: 4rem;
 }
 
-.publications .publication-distinction,
 .publications .publication-distinction a {
-  color: #3783b2;
-  font-weight: 700;
-}
-
-html[data-theme="dark"] .publications .publication-distinction,
-html[data-theme="dark"] .publications .publication-distinction a {
-  color: #8ecdf5;
-}
-
-.publications .publication-distinction a {
+  color: inherit;
   text-decoration: underline;
 }
 
