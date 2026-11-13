@@ -2,5 +2,8 @@
   {%- when 'article' -%}
     {%- capture entrytype -%}<span class="publication-type" title="Journal">J</span>{{ entrytype }}{%- endcapture -%}
   {%- when 'inproceedings' -%}
+    {%- if page.url == '/' and entry.selected == 'true' -%}
+      {%- assign entrytype = entrytype | replace_first: '<em>In ', '<em>' -%}
+    {%- endif -%}
     {%- capture entrytype -%}<span class="publication-type" title="Conference or workshop">C</span>{{ entrytype }}{%- endcapture -%}
 {%- endcase -%}

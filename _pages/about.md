@@ -9,9 +9,9 @@ permalink: /
     <h1 id="home-heading">Beomgu Kang</h1>
     <div class="intro-grid">
       <div class="intro-text">
-        <p>I’m a postdoctoral researcher in the Department of Artificial Intelligence at Korea University, working with Hyunseok Seo. I study how AI systems can make reliable decisions with limited compute and measurements.</p>
-        <p>My research spans physics-informed learning and optimization, active sensing, and efficient inference for large language models. I develop methods for deciding what to measure, what information to keep, and how to use it in medical imaging and other inverse problems.</p>
-        <p>I’m also interested in applying these ideas to multimodal and generative AI.</p>
+        <p>I’m a postdoctoral researcher in the Department of Artificial Intelligence at Korea University, working with <a href="https://impel.korea.ac.kr/members/principal-investigator">Hyunseok Seo</a>. I study how to build reliable AI systems when measurements or compute are limited.</p>
+        <p>During my Ph.D. at KAIST, I studied how to get more useful information from limited MRI measurements. I developed methods to optimize acquisition schedules for quantitative MR fingerprinting and to denoise multidimensional MRI data with self-supervised learning.</p>
+        <p>In my postdoctoral research, I’ve extended these ideas to active sensing and efficient inference for large language models. In active sensing, I study how to choose which measurements to acquire for each input. In language models, I study which cached information to retain under a memory budget. I’m interested in extending this work to multimodal and generative AI.</p>
         <ul class="profile-links" aria-label="Profile links">
           <li><a href="mailto:{{ site.data.socials.email }}">Email</a></li>
           <li><a href="https://github.com/{{ site.data.socials.github_username }}">GitHub</a></li>
