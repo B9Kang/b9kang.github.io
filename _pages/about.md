@@ -26,10 +26,10 @@ permalink: /
   <section aria-labelledby="news-heading">
     <h2 id="news-heading">News</h2>
     <ul class="research-news">
-      <li><time datetime="2026-09">Sep 2026</time><span>Our paper (Sparse Support Grounding for Heterogeneous MIL) was accepted at <strong>NeurIPS</strong> 2026.</span></li>
-      <li><time datetime="2026-05">May 2026</time><span>Our paper (Robust MRI Protocol Optimization) was accepted at the <strong>ICML 2026 Workshop on AI4Physics</strong>.</span></li>
-      <li><time datetime="2026-02">Feb 2026</time><span>Our paper (Physics-Informed Optimization of Saturation-Transfer MRI Protocols) was accepted for publication in <strong>Physics in Medicine &amp; Biology (PMB)</strong>.</span></li>
-      <li><time datetime="2026-01">Jan 2026</time><span>Our paper (Active Probabilistic Subsampling) was accepted at <strong>ICLR</strong> 2026. <a href="https://github.com/B9Kang/PGADPS">Code</a></span></li>
+      <li><time datetime="2026-09">Sep 2026</time><span><a href="{{ '/publications/#2026-not-all-instances-should' | relative_url }}">Sparse Support Grounding for Heterogeneous MIL</a> was accepted at <strong>NeurIPS</strong> 2026.</span></li>
+      <li><time datetime="2026-05">May 2026</time><span><a href="{{ '/publications/#2026-taming-gradient-perturbations-probabilistic' | relative_url }}">Robust MRI Protocol Optimization</a> was accepted at the <strong>ICML 2026 Workshop on AI4Physics</strong>.</span></li>
+      <li><time datetime="2026-02">Feb 2026</time><span><a href="https://doi.org/10.1088/1361-6560/ae4285">Physics-Informed Optimization of Saturation-Transfer MRI Protocols</a> was accepted for publication in <strong>Physics in Medicine &amp; Biology (PMB)</strong>.</span></li>
+      <li><time datetime="2026-01">Jan 2026</time><span><a href="https://openreview.net/pdf/d65069ded160e53c7d338ff8320d2f428f71f85b.pdf">Active Probabilistic Subsampling</a> was accepted at <strong>ICLR</strong> 2026. <a href="https://github.com/B9Kang/PGADPS">Code</a></span></li>
       <li><time datetime="2025-05">May 2025</time><span>Selected as an <a href="https://www.ismrm.org/25m/junior-fellows/">ISMRM Junior Fellow</a>.</span></li>
     </ul>
   </section>
