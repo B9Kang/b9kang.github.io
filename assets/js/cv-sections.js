@@ -1,0 +1,1 @@
+function revealCvSection(){const e=document.getElementById(window.location.hash.slice(1));e instanceof HTMLDetailsElement&&(e.open=!0)}revealCvSection(),window.addEventListener("hashchange",revealCvSection);
