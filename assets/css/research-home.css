@@ -368,3 +368,8 @@ html[data-theme="dark"] .publications .publication-distinction a {
 .publications .publication-distinction a {
   text-decoration: underline;
 }
+
+.research-question {
+  background-color: #fff3b5;
+  color: #272217;
+}
