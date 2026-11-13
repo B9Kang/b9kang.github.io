@@ -58,15 +58,28 @@ html[data-theme="dark"] .research-home {
 
 .intro-grid {
   display: grid;
-  grid-template-columns: minmax(0, 68ch) minmax(0, 18.2%);
+  grid-template-columns: minmax(0, 73fr) minmax(0, 27fr);
   gap: 0.75rem;
   align-items: start;
 }
 
+.intro-text p:last-child {
+  margin-bottom: 0;
+}
+
+.portrait-frame {
+  position: relative;
+  align-self: stretch;
+}
+
 .research-portrait {
+  position: absolute;
+  inset: 0;
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
 }
 
 .profile-links,
@@ -183,9 +196,14 @@ html[data-theme="dark"] .research-home {
     grid-template-columns: minmax(0, 1fr);
   }
 
-  .research-portrait {
+  .portrait-frame {
     grid-row: 1;
-    width: min(33.6%, 7.7rem);
+    width: min(40%, 9rem);
+  }
+
+  .research-portrait {
+    position: static;
+    height: auto;
   }
 
   .research-news li {
