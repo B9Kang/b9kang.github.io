@@ -25,9 +25,12 @@ permalink: /
   <section aria-labelledby="news-heading">
     <h2 id="news-heading">News</h2>
     <ul class="research-news">
-      <li><time datetime="2026">2026</time><span>Work on active probabilistic subsampling appeared at ICLR. <a href="https://github.com/B9Kang/PGADPS">Code</a></span></li>
+      <li><time datetime="2026">2026</time><span>One paper (Sparse Support Grounding for Heterogeneous MIL) was accepted at <strong>NeurIPS</strong>.</span></li>
+      <li><time datetime="2026">2026</time><span>One paper (Robust MRI Protocol Optimization) was accepted at the <strong>ICML AI for Physics Workshop</strong>.</span></li>
+      <li><time datetime="2026">2026</time><span>One paper (Active Probabilistic Subsampling) was accepted at <strong>ICLR</strong>. <a href="https://github.com/B9Kang/PGADPS">Code</a></span></li>
+      <li><time datetime="2026">2026</time><span>One paper (Physics-Informed Optimization of Saturation-Transfer MRI Protocols) was accepted for publication in <strong>Physics in Medicine &amp; Biology (PMB)</strong>.</span></li>
       <li><time datetime="2025-11">Nov 2025</time><span>Joined Korea University as a postdoctoral researcher in the Department of Artificial Intelligence.</span></li>
-      <li><time datetime="2025">2025</time><span>Named an <a href="https://www.ismrm.org/25m/junior-fellows/">ISMRM Junior Fellow</a>.</span></li>
+      <li><time datetime="2025-05">May 2025</time><span>Named an <a href="https://www.ismrm.org/25m/junior-fellows/">ISMRM Junior Fellow</a>.</span></li>
     </ul>
   </section>
 
