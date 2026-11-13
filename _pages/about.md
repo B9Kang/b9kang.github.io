@@ -10,8 +10,8 @@ permalink: /
     <div class="intro-grid">
       <div class="intro-text">
         <p>I’m a postdoctoral researcher in the Department of Artificial Intelligence at Korea University, working with <a href="https://impel.korea.ac.kr/members/principal-investigator">Hyunseok Seo</a>. I develop reliable and resource-efficient AI methods that decide what information to use and how much computation to spend under uncertainty.</p>
-        <p>During my Ph.D. in electrical engineering at KAIST, I developed physics-informed learning and self-supervised denoising methods for quantitative MRI. This work led me to study measurement selection more broadly. In my postdoctoral research, I developed active probabilistic subsampling that chooses measurements based on the input and the downstream task, from reconstruction to classification and segmentation.</p>
-        <p>I now apply these ideas to foundation models. My work on risk-controlled KV-cache eviction studies how to reduce memory use in large language models while meeting explicit targets for predictive risk. I’m also exploring when visual references should guide generation and how to allocate inference-time computation for reliable multimodal outputs.</p>
+        <p>During my Ph.D. at KAIST, I developed physics-informed learning methods for quantitative MRI. I used models of MR signal formation to optimize acquisition protocols and implemented those protocols on MRI scanners, reducing scan time while preserving quantitative accuracy.</p>
+        <p>As a postdoc, I extended this work to active sensing, where the model chooses which measurements to acquire based on the input and the downstream task. I now apply the same principle to large language models, where I study which cached information to retain to reduce memory use while keeping prediction risk within a specified limit. These projects share a question: How many measurements or how much memory does a model need to perform reliably?</p>
       </div>
       <div class="portrait-frame"><img class="research-portrait" src="{{ '/assets/img/beomgu-kang.jpg' | relative_url }}" alt="Beomgu Kang" width="600" height="840"></div>
     </div>
