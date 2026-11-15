@@ -36,4 +36,4 @@ nav_order: 1
 
 <script src="{{ '/assets/js/publication-numbers.js' | relative_url | append: '?v=oldest-first' }}" defer></script>
 
-<script src="{{ '/assets/js/selected-paper-links.js' | relative_url | append: '?v=neurips-2026' }}" defer></script>
+<script src="{{ '/assets/js/selected-paper-links.js' | relative_url | append: '?v=external-2026-papers' }}" defer></script>
