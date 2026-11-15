@@ -1,4 +1,5 @@
 const publicationLinks = {
+  "2026-not-all-instances-should": "https://neurips.cc/virtual/2026/loc/sydney/poster/150282",
   "kang-active-subsampling": "https://openreview.net/pdf/d65069ded160e53c7d338ff8320d2f428f71f85b.pdf",
   "kang-mri-protocols": "https://doi.org/10.1088/1361-6560/ae4285",
   "kang-mri-denoising": "https://doi.org/10.1002/mrm.30197",
