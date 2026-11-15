@@ -383,10 +383,10 @@ html[data-theme="dark"] .publications-by-year h2.bibliography {
 
 .publications .periodical:has(+ .periodical > .publication-venue-note),
 .publications .periodical:has(> .publication-venue-note) {
-  display: inline;
+  display: block;
 }
 
 .publication-venue-note {
-  margin-inline-start: 0.35em;
+  margin-inline-start: 0;
   font-weight: 700;
 }
